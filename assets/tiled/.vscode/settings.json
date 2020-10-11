@@ -1,0 +1,7 @@
+{
+  "files.associations": {
+    "*.tsx": "xml",
+    "*.tiled-project": "json",
+    "*.tiled-session": "json"
+  }
+}

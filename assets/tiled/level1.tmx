@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="3">
+ <tileset firstgid="1" source="Aurora Tileset.tsx"/>
+ <tileset firstgid="987" source="dev-tileset.tsx"/>
+ <layer id="1" name="ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztwwEJAAAMA6DxBOufdj2Ogr2kqqqq6usDucBIAQ==
+  </data>
+ </layer>
+ <layer id="2" name="features" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt100OgjAQBeBalsg5PIdbNd5AXCJewS16Iw/i3zUAb8A0YNLFGyWmdDbzkrcj/Ya2m+YzY05Czal76lWou8GXivrqq6+++uFyo/XuoA/gTOHXtF4D2k7oLxJZ309of0X/tgbdJPj70H5BzgH0yMzD+W9wB8f4Fa179rpl5il/+GgP/jn/ipkhlu+CziSmj/Ygpv+Zwb8Xl8FPrTEvz3xS57ZvZsP535Ja3ozhj4366kv77g28FKqzO53WosM=
+  </data>
+ </layer>
+ <layer id="3" name="objects" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztlskNwjAQAB2ONrjaAEIbXG1w/aAFkvCDQqA5hp+FiGUTxzm0I81rvd6NHB9KCYLwi3Ok1CWqrv6d2o+c+i69/fsdT3JeOXmm3oqMtcXUW5GxVVHnf82VzzQd7GIP+xY5PtdogEMc4Rgnfqa1ZooznGOMCy0WYp2XuMI1bnCrxcrYi9/scI8HPOJJi4XYi1dMMMUMb+WWEwShZTTtPvbdr+s5HeJeMdGEN14deQPX1CLb
+  </data>
+ </layer>
+ <objectgroup id="4" name="markers">
+  <object id="1" name="start" x="32" y="512" width="32" height="32"/>
+  <object id="2" name="end" x="736" y="544" width="32" height="32"/>
+ </objectgroup>
+ <layer id="5" name="collision" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt1UEOgCAMBEAS/v9DH8PVEMF2aXc5dBNOCtMata1p83T9UvdefvnIdaXvqW1170l/aj8iN/mKWm7yM879mzFR/nzGzmc880gfmdtWw+pb6/IG7d9T56lv3cPyVxbb//rmWP57b/b7l5ny82cDy4/8lyBR+0h2s421Bie/r/c=
+  </data>
+ </layer>
+</map>

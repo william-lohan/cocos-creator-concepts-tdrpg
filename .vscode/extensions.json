@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "chukong technology.cocos-debug",
+    "chukong technologies.cocos-creator",
+    "msjsdiag.debugger-for-chrome",
+    "ms-vscode.vscode-typescript-tslint-plugin"
+  ]
+}

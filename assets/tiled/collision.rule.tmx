@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="1">
+ <tileset firstgid="1" source="Aurora Tileset.tsx"/>
+ <tileset firstgid="987" source="dev-tileset.tsx"/>
+ <layer id="1" name="regions" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztj0EKACAIBBf6/wv7TMdELDxp5g6I0WUcAJhjTzTSrW+IuOvk9/zTX9+fjdXmfdNfn+z+7v5sZNdt/4ru69rfpZcQQsgbLAFSdRM=
+  </data>
+ </layer>
+ <layer id="4" name="input_features" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztz7ENwCAMRFFLbEcIa6DAGglzU3AVA1iR9V/z5c5nBgAAvOW0e6lFvdWa/H/y1I59j+6ujuD7X+371Bl8LwDgHxb2YQTV
+  </data>
+ </layer>
+ <layer id="2" name="input_objects" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt0cVOA2EUxfEZHB4Cl+Cyxa3F2eLW4mxxa3G2uLU4D4HLi/FPeh7hK03I3OSXc3IX381kbMuyohCNGMRaoYlDPBKQiCQrPJOMFKQiDenaZyATWchGTpjul6MClahCtfY1qEUd6tGgfSNccBu634Vu9KAXfdr3YwCDGMKw9iPwwGvo/izmMI8FLGq/hGWsYBVr2q/DB7+h+wc4xBGOcaL9Kc5wjgtcan+FAIKG7kd6cm3LyrNDPZ8sUC8ki9SLyRL1UrLMNnffxVtuvddENqu3kK3qbWS7egfZafC+h7e8em+UHFMfJyfUJ8kp9WlyxuD9SI+Pb/HrezbITfUtclt9h9xV3yP3DX5/gLeCeu+avFG/Je/U78kH9UfyyeD9Z9560Xuv5Jv6O/mh/kl+qX+TP//o/zvjjDPOOOOMM8789fwC0dEzfw==
+  </data>
+ </layer>
+ <layer id="3" name="output_collision" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJxjYBjZ4A4zJh4M9hMjTk37SWEj00Pd/pEOyAl/aob9QNs/0sFAh/9A2z/QAFe5NlLKOXT/jVT/jxT/joJRMApGwSgYHAAAx/pOZw==
+  </data>
+ </layer>
+</map>
