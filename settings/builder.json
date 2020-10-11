@@ -1,8 +1,11 @@
 {
   "title": "Aurora",
   "packageName": "org.cocos2d.demo",
-  "startScene": "031864eb-b720-4a99-ae2a-8c00c4ac8397",
-  "excludeScenes": [],
+  "startScene": "fd0b9fb1-f4b0-402b-9bcc-388d04bcb483",
+  "excludeScenes": [
+    "d1154b9c-e185-4eb6-9856-3b3c36ca5e29",
+    "031864eb-b720-4a99-ae2a-8c00c4ac8397"
+  ],
   "orientation": {
     "landscapeLeft": true,
     "landscapeRight": true,

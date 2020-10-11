@@ -1,0 +1,21 @@
+{
+  "name": "aurora",
+  "version": "0.0.1",
+  "scripts": {
+    "fb-instant-games": "npx http-server ./build/fb-instant-games --ssl -c-1 -p 8080 -a 127.0.0.1 --key ./dev-ssl/key.pem --cert ./dev-ssl/cert.pem"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/william-lohan/cocos-creator-concepts-tdrpg.git"
+  },
+  "author": "William Lohan",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/william-lohan/cocos-creator-concepts-tdrpg/issues"
+  },
+  "homepage": "https://github.com/william-lohan/cocos-creator-concepts-tdrpg#readme",
+  "devDependencies": {
+    "@types/facebook-instant-games": "^6.3.1",
+    "http-server": "^0.12.3"
+  }
+}

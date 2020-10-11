@@ -11,3 +11,11 @@ interface GamepadHapticActuator {
 interface Gamepad {
   vibrationActuator: GamepadHapticActuator;
 }
+
+/**
+ * Contains functions and properties related to game inventory.
+ * @beta
+ */
+interface FBBetaInventory {
+  unlockItemAsync(unlockableItemConfig: any): Promise<any>;
+}

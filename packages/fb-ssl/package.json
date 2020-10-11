@@ -1,0 +1,7 @@
+{
+  "name": "fb-ssl",
+  "version": "0.0.1",
+  "description": "Adds key.pem and cert.pem to Facebook Instant Games build",
+  "author": "William Lohan",
+  "main": "main.js"
+}

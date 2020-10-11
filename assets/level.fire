@@ -24,6 +24,9 @@
       },
       {
         "__id__": 22
+      },
+      {
+        "__id__": 31
       }
     ],
     "_active": true,
@@ -180,7 +183,7 @@
       "array": [
         0,
         0,
-        935.3074360871938,
+        342.0800344948533,
         0,
         0,
         0,
@@ -1111,5 +1114,107 @@
     "playOnLoad": false,
     "preload": true,
     "_id": "06O9nK9jNCBar7XY8zPrk4"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "magician_DB_ske",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 1
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 32
+      }
+    ],
+    "_prefab": null,
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 217.38,
+      "height": 457.67
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        246.423,
+        498.93,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": "89ErEP5VRAk6LMWFg4KpVo"
+  },
+  {
+    "__type__": "dragonBones.ArmatureDisplay",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 31
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_armatureName": "Armature",
+    "_animationName": "idle",
+    "_preCacheMode": 0,
+    "_cacheMode": 0,
+    "playTimes": -1,
+    "premultipliedAlpha": false,
+    "_armatureKey": "2437bbb1-6be4-4bea-bea6-da911dd61fb8#47c3966c-fe72-4f93-91e1-7ae7074d2184",
+    "_accTime": 0,
+    "_playCount": 0,
+    "_frameCache": null,
+    "_curFrame": null,
+    "_playing": false,
+    "_armatureCache": null,
+    "_N$dragonAsset": {
+      "__uuid__": "2437bbb1-6be4-4bea-bea6-da911dd61fb8"
+    },
+    "_N$dragonAtlasAsset": {
+      "__uuid__": "47c3966c-fe72-4f93-91e1-7ae7074d2184"
+    },
+    "_N$_defaultArmatureIndex": 0,
+    "_N$_animationIndex": 4,
+    "_N$_defaultCacheMode": 0,
+    "_N$timeScale": 1,
+    "_N$debugBones": false,
+    "_N$enableBatch": false,
+    "_id": "ceB9vO64ZCMYnm7vJZpeTn"
   }
 ]
