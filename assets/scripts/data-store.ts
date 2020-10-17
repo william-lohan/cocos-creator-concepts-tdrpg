@@ -14,8 +14,8 @@ export abstract class DataStore {
     } else if (typeof FBInstant !== 'undefined') {
       DataStore.instance = new FacebookInstantGamesDataStore();
       return DataStore.instance;
-    } else if (typeof localStorage !== 'undefined') {
-      DataStore.instance = new LocalStorageDataStore();
+    } else if (typeof cc.sys.localStorage !== 'undefined') {
+      DataStore.instance = new LocalStorageDataStore(cc.sys.localStorage);
       return DataStore.instance;
     }
     throw Error('not DataStore implemented for this platform');
@@ -57,18 +57,24 @@ export class LocalStorageDataStore extends DataStore {
 
   private static PLAYER_DATA_KEY: string = 'PLAYER_DATA';
 
+  constructor(
+    private storage: Storage
+  ) {
+    super();
+  }
+
   public getPlayerName(): string | null {
-    return localStorage.getItem(LocalStorageDataStore.PLAYER_NAME_KEY) || 'dev player';
+    return this.storage.getItem(LocalStorageDataStore.PLAYER_NAME_KEY) || 'dev player';
   }
 
   public setPlayerName(name: string): void {
-    return localStorage.setItem(LocalStorageDataStore.PLAYER_NAME_KEY, name);
+    return this.storage.setItem(LocalStorageDataStore.PLAYER_NAME_KEY, name);
   }
 
   public getPlayerData(): Promise<Partial<PlayerData>> {
     return new Promise((resolve, reject) => {
       try {
-        const playerDataString = localStorage.getItem(LocalStorageDataStore.PLAYER_DATA_KEY);
+        const playerDataString = this.storage.getItem(LocalStorageDataStore.PLAYER_DATA_KEY);
         const playerData = JSON.parse(playerDataString);
         resolve(playerData || {});
       } catch (error) {
@@ -81,7 +87,7 @@ export class LocalStorageDataStore extends DataStore {
     return new Promise((resolve, reject) => {
       try {
         const playerDataString = JSON.stringify(playerData);
-        localStorage.setItem(LocalStorageDataStore.PLAYER_DATA_KEY, playerDataString);
+        this.storage.setItem(LocalStorageDataStore.PLAYER_DATA_KEY, playerDataString);
       } catch (error) {
         reject(error);
       } finally {
